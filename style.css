@@ -1,0 +1,261 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+p {
+  color: gray;
+}
+/* header style start */
+
+.center {
+  margin-left: 150px;
+}
+
+.center li {
+  margin-left: 20px;
+}
+
+svg {
+  margin-left: 30px;
+  /* padding-right: 10px; */
+}
+
+#language {
+  margin-left: 30px;
+  border: none;
+  outline: none;
+}
+
+#Account {
+  margin-left: 20px;
+  border: none;
+  outline: none;
+}
+/* header style end  */
+
+main {
+  margin-left: -10px !important;
+}
+
+.pic1,
+.center {
+  background-color: #fafeff;
+}
+
+.pic1 img {
+  height: 250px;
+}
+
+.form {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.form select {
+  background-color: #fb524f;
+  color: white;
+  padding: 18px 25px;
+  outline: none;
+}
+
+.form input {
+  width: 450px;
+  height: 60px;
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+}
+
+.form button {
+  height: 60px;
+  margin-left: 1px;
+  padding: 15px 25px;
+  background-color: white;
+  border: none;
+  outline: none;
+}
+
+.write ul {
+  margin-top: 30px;
+}
+
+.write i {
+  padding-left: 50px;
+}
+
+.round {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(#0dcaf0, #20c997);
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.round img {
+  width: 100%;
+  padding: 20px;
+}
+
+.name p {
+  padding: 8px 27px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.name p:hover {
+  color: #0dcaf0;
+}
+
+.img {
+  padding: 30px 50px;
+}
+
+.img h5 {
+  padding: 30px 0px;
+  color: #362725;
+}
+
+.img h5:hover {
+  color: #fb524f;
+}
+
+.most p {
+  padding: 5px 350px;
+}
+
+.box {
+  box-shadow: 0px 0px 10px gray;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.box img:hover {
+  transform: scale(1.04);
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: all ease 0.5s;
+}
+
+.btn {
+  background: #fb524f !important;
+  outline: none;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.btn:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.icon {
+  background-color: #20c997;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+}
+
+.icon1 {
+  background-color: #0dcaf0;
+  color: white;
+  border: none;
+  padding: 6px 5px;
+}
+
+.app {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+
+.info {
+  margin-left: 0px;
+}
+
+.info input {
+  border-radius: 10px;
+  padding: 20px 0px 20px 20px;
+  border: none;
+  outline: none;
+  width: 84%;
+  margin-top: 8px;
+}
+
+.info button {
+  position: absolute;
+  right: 150px;
+  padding: 15px 0px 15px 15px;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 0px 10px 10px 0px;
+  box-sizing: border-box;
+  background-color: #fb524f;
+  border: none;
+}
+
+.flex {
+  justify-content: space-around;
+  align-items: center;
+}
+.position{
+  position: relative;
+  bottom: 110px;
+}
+.position img{
+  border-radius: 50%;
+}
+.register input{
+  border: none;
+  width: 100%;
+  box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.507);
+  border-radius: 10px;
+}
+.register button{
+  border: none;
+  border-radius: 10px;
+  background-color: #FB524F;
+  color: white;
+  font-weight: bold;
+}
+.register form{
+  border-radius: 10px;
+  width: 400px;
+}
+.cent{
+  font-weight: bold;
+}
+.cent:hover{
+  color: #FB524F;
+
+}
+/* image ko scale krne wali transition start  */
+.big{
+  box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.507);
+  border-radius: 10px;
+}
+.rok{
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+.big img:hover{
+  scale: 1.1;
+  transition: all ease 0.5s;
+  rotate: -3deg;
+  
+}
+/* image ko scale krne wali transition end  */
+.social button{
+  background-color: white;
+  color: blue;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+}

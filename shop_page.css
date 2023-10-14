@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box !important;
+}
+p {
+  color: gray;
+}
+/* header style start  */
+.center {
+  margin-left: 150px;
+}
+
+.center li {
+  margin-left: 20px;
+}
+
+svg {
+  margin-left: 30px;
+  /* padding-right: 10px; */
+}
+
+#language {
+  margin-left: 30px;
+  border: none;
+  outline: none;
+}
+
+#Account {
+  margin-left: 20px;
+  border: none;
+  outline: none;
+}
+/* header style end  */
+
+.text a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.text a:hover {
+  color: #fb524f;
+}
+.img2 {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+.text {
+  position: relative;
+  top: -240px;
+}
+.order a {
+  text-decoration: none;
+  color: gray;
+}
+.order a:hover {
+  color: #fb524f;
+}
+.rating i {
+  color: #e9ba17;
+}
+.check i {
+  color: #fb524f;
+}
+.type {
+  padding: 5px 10px;
+}
+.cart {
+  border: 1px solid #fb524f;
+  color: #fb524f;
+  background-color: white;
+}
+.cart:hover {
+  /* border: 1px solid #fb524f; */
+  color: white;
+  background-color: #fb524f;
+}
+.order p {
+  color: #fb524f;
+}
+.order a {
+  color: black;
+  font-weight: bold;
+}
+.btn button{
+  border: 1px solid gray;
+  padding: 10px 20px;
+
+}
+/* footer  */
+.social button{
+  background-color: white;
+  color: blue;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+}
